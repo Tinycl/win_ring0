@@ -1,0 +1,18 @@
+
+
+AMD64_OBJECTS=\
+ $(OBJ_PATH)\$O\openlibsys.obj \
+
+
+_RES_FILE=$(OBJ_PATH)\$O\openlibsys.res
+
+
+
+# lowercased
+BASEDIR=c:\winddk\7600.16385.1
+OBJECT_ROOT=c:\winddk\7600.16385.1
+MAKEDIR_LOWERCASE=c:\winddk\7600.16385.1\project\dll\sys
+MAKEDIR_RELATIVE_TO_BASEDIR=project\dll\sys
+OBJ_PATH=c:\winddk\7600.16385.1\project\dll\sys
+CONCURRENT_MIDL=0
+CONCURRENT_MANIFEST_BUILD=0

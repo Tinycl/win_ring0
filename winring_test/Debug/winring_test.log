@@ -1,0 +1,26 @@
+﻿  main.c
+e:\vsproject\winring_test\winring_test\main.c(36): warning C4133: 'function': incompatible types - from 'unsigned short [40]' to 'LPCSTR'
+e:\vsproject\winring_test\winring_test\main.c(36): warning C4047: 'function': 'UINT' differs in levels of indirection from 'void *'
+e:\vsproject\winring_test\winring_test\main.c(36): warning C4024: 'MessageBoxA': different types for formal and actual parameter 4
+e:\vsproject\winring_test\winring_test\main.c(40): warning C4133: 'function': incompatible types - from 'unsigned short [37]' to 'LPCSTR'
+e:\vsproject\winring_test\winring_test\main.c(40): warning C4047: 'function': 'UINT' differs in levels of indirection from 'void *'
+e:\vsproject\winring_test\winring_test\main.c(40): warning C4024: 'MessageBoxA': different types for formal and actual parameter 4
+e:\vsproject\winring_test\winring_test\main.c(44): warning C4133: 'function': incompatible types - from 'unsigned short [36]' to 'LPCSTR'
+e:\vsproject\winring_test\winring_test\main.c(44): warning C4047: 'function': 'UINT' differs in levels of indirection from 'void *'
+e:\vsproject\winring_test\winring_test\main.c(44): warning C4024: 'MessageBoxA': different types for formal and actual parameter 4
+e:\vsproject\winring_test\winring_test\main.c(48): warning C4133: 'function': incompatible types - from 'unsigned short [35]' to 'LPCSTR'
+e:\vsproject\winring_test\winring_test\main.c(48): warning C4047: 'function': 'UINT' differs in levels of indirection from 'void *'
+e:\vsproject\winring_test\winring_test\main.c(48): warning C4024: 'MessageBoxA': different types for formal and actual parameter 4
+e:\vsproject\winring_test\winring_test\main.c(52): warning C4133: 'function': incompatible types - from 'unsigned short [48]' to 'LPCSTR'
+e:\vsproject\winring_test\winring_test\main.c(52): warning C4047: 'function': 'UINT' differs in levels of indirection from 'void *'
+e:\vsproject\winring_test\winring_test\main.c(52): warning C4024: 'MessageBoxA': different types for formal and actual parameter 4
+e:\vsproject\winring_test\winring_test\main.c(57): warning C4133: 'function': incompatible types - from 'unsigned short [33]' to 'LPCSTR'
+e:\vsproject\winring_test\winring_test\main.c(57): warning C4047: 'function': 'UINT' differs in levels of indirection from 'void *'
+e:\vsproject\winring_test\winring_test\main.c(57): warning C4024: 'MessageBoxA': different types for formal and actual parameter 4
+e:\vsproject\winring_test\winring_test\main.c(79): warning C4133: 'function': incompatible types - from 'unsigned short [24]' to 'LPCSTR'
+e:\vsproject\winring_test\winring_test\main.c(79): warning C4047: 'function': 'UINT' differs in levels of indirection from 'void *'
+e:\vsproject\winring_test\winring_test\main.c(79): warning C4024: 'MessageBoxA': different types for formal and actual parameter 4
+main.obj : error LNK2019: unresolved external symbol _GetDllStatus@0 referenced in function _GetWinRing0dllStates
+main.obj : error LNK2019: unresolved external symbol _InitializeOls@0 referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _DeinitializeOls@0 referenced in function _main
+E:\VSProject\winring_test\Debug\winring_test.exe : fatal error LNK1120: 3 unresolved externals
